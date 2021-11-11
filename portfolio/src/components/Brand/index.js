@@ -1,8 +1,14 @@
 import { Container, Col, Row, Image } from "react-bootstrap";
-import me from "../../assets/images/me.jpg";
+
+//Import animate on scroll
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+//import React
 import { useEffect } from "react";
+
+//import photo of Creator, ME
+import me from "../../assets/images/me.jpg";
 
 function Brand() {
   useEffect(() => {
@@ -15,6 +21,9 @@ function Brand() {
         <Row>
           <Col data-aos="fade-left">
             <div className="brand-text">
+
+{/* Intro starts here, with a slight about me section */}
+
               <h1 className="dark-text header">Hi!</h1>
               <br />
               <h2 className="highlight-text header-two">I'm Anthony.</h2>
@@ -40,4 +49,5 @@ function Brand() {
   );
 }
 
+//export Brand function
 export default Brand;

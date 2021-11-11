@@ -1,7 +1,13 @@
 import { Container, Col, Row } from "react-bootstrap";
+
+// import Animate on scroll
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+// import react
 import { useEffect } from "react";
+
+//import resume pdf
 import resume from "../../assets/resume/Resume.pdf";
 
 function Footer() {
@@ -11,6 +17,9 @@ function Footer() {
 
   return (
     <div className="primary blob dark-blobs" id="resume">
+
+        {/* Resume and corresponding links */}
+
       <Container className="resume">
         <Row className="footer-row">
           <Col className="empty-col"></Col>
@@ -39,6 +48,9 @@ function Footer() {
           </Col>
         </Row>
       </Container>
+
+{/* Contact and coresponding links */}
+
       <div className="primary blob dark-blobs" id="contact">
         <Container class="contact">
           <Row className="footer-row">
@@ -71,5 +83,7 @@ function Footer() {
     </div>
   );
 }
+
+//Export Footer function
 
 export default Footer;

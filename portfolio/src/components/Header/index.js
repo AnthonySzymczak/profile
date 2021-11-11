@@ -8,6 +8,9 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
+
+            {/* Navlinks and their Relation ships */}
+
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#technologies">Technologies</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
@@ -20,4 +23,5 @@ function Header() {
   );
 }
 
+//export function Header
 export default Header;
