@@ -50,11 +50,13 @@ function Footer() {
       </Container>
                 </div>
 
+                <Col className="empty-col"></Col>
+
 {/* Contact and coresponding links */}
       <div className="primary blob dark-blobs" id="contact">
         <Container class="contact">
           <Row className="footer-row">
-            <Col data-aos="zoom-in" className="align-right right-border">
+            <Col data-aos="zoom-in" className="right-border">
               <h1 className="header highlight-text">Contact Me!</h1>
               <p className="light-text header-content">
                 Email:{" "}
