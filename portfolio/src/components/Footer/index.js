@@ -1,4 +1,4 @@
-import { Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row, CardGroup } from "react-bootstrap";
 
 // import Animate on scroll
 import Aos from "aos";
@@ -16,14 +16,14 @@ function Footer() {
   }, []);
 
   return (
+<CardGroup>
     <div className="primary blob dark-blobs" id="resume">
 
         {/* Resume and corresponding links */}
-
       <Container className="resume">
         <Row className="footer-row">
           <Col className="empty-col"></Col>
-          <Col data-aos="fade-left" className="left-border">
+          <Col data-aos="zoom-in" className="left-border">
             <h1 className="header highlight-text">Resume</h1>
             <p className="light-text header-content">
               <a
@@ -41,20 +41,20 @@ function Footer() {
                 href="https://github.com/AnthonySzymczak"
                 target="_blank"
                 rel="noreferrer"
-              >
+                >
                 Browse my latest projects on Github
               </a>
             </p>
           </Col>
         </Row>
       </Container>
+                </div>
 
 {/* Contact and coresponding links */}
-
       <div className="primary blob dark-blobs" id="contact">
         <Container class="contact">
           <Row className="footer-row">
-            <Col data-aos="fade-right" className="align-right right-border">
+            <Col data-aos="zoom-in" className="align-right right-border">
               <h1 className="header highlight-text">Contact Me!</h1>
               <p className="light-text header-content">
                 Email:{" "}
@@ -80,7 +80,8 @@ function Footer() {
           </Row>
         </Container>
       </div>
-    </div>
+      </CardGroup>
+
   );
 }
 

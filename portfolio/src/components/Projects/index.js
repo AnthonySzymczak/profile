@@ -62,7 +62,7 @@ function Projects() {
           {/* Startifacts card start */}
 
           <CardGroup>
-            <Card data-aos="flip-right" className="card-container">
+            <Card data-aos="fade-up-right" className="card-container">
               <Card.Img variant="top" src={Startifacts} />
               <Card.Body>
                 <Card.Title>Startifacts</Card.Title>
@@ -90,7 +90,7 @@ function Projects() {
 
             {/* Cocktail Dreamer card start */}
 
-            <Card data-aos="flip-right" className="card-container">
+            <Card data-aos="fade-up-left" className="card-container">
               <Card.Img variant="top" src={CocktailDreamer} />
               <Card.Body>
                 <Card.Title>Cocktail Dreamer</Card.Title>
