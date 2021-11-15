@@ -16,7 +16,7 @@ function Brand() {
   }, []);
 
   return (
-    <div className="light blob light-blobs" id="about">
+    <div className="light blob wave-haikei" id="about">
       <Container className="brand-container">
         <Row>
           <Col data-aos="fade-left">

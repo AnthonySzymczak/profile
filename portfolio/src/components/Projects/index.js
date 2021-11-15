@@ -22,11 +22,11 @@ function Projects() {
   }, []);
 
   return (
-    <div className="light" id="projects">
+    <div className="circle-scatter-haikei" id="projects">
       <Container className="card-div margin-bottom">
         {/* Projects title */}
 
-        <h1 data-aos="fade-down" className="dark-text header center">
+        <h1 data-aos="fade-down" className="light-text header center">
           Projects
         </h1>
 

@@ -17,7 +17,7 @@ function Footer() {
 
   return (
 <CardGroup>
-    <div className="primary blob dark-blobs" id="resume">
+    <div className="primary blob stacked-waves-haikei" id="resume">
 
         {/* Resume and corresponding links */}
       <Container className="resume">
@@ -47,14 +47,8 @@ function Footer() {
             </p>
           </Col>
         </Row>
-      </Container>
-                </div>
 
-                <Col className="empty-col"></Col>
 
-{/* Contact and coresponding links */}
-      <div className="primary blob dark-blobs" id="contact">
-        <Container class="contact">
           <Row className="footer-row">
             <Col data-aos="zoom-in" className="right-border">
               <h1 className="header highlight-text">Contact Me!</h1>

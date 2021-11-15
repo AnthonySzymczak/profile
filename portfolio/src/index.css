@@ -1,13 +1,192 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (max-width: 500px) {
+  .hero-text {
+    width: 100%;
+  }
+
+  .icon {
+    width: 5px;
+  }
+
+  .empty-col {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .icon {
+    width: 15vw;
+  }
+  .img-col {
+    display: none;
+  }
+}
+
+#about::before, #projects::before, #technologies::before {
+  content: '';
+  display: block;
+  height: 75px;
+  margin: -30px 0 0;
+}
+
+.dark {
+  background-color: #171717;
+}
+
+.light {
+  background-color: #EDEDED;
+}
+
+.primary {
+  background-color: #002233;
+}
+
+.secondary {
+  background-color: #C4B6B6;
+}
+
+.highlight {
+  background-color: #0066FF;
+}
+
+.dark-text {
+  color: #171717;
+}
+
+.light-text {
+  color: #EDEDED;
+}
+
+.primary-text {
+  color: #444444
+}
+
+.secondary-text {
+  color: #C4B6B6;
+}
+
+.highlight-text {
+  color: white;
+}
+
+.link {
+  color: #EDEDED;
+}
+
+.link:hover {
+  color: #0066FF;
+}
+
+.blob {
+  aspect-ratio: 930/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wave-haikei {
+  background-image: url(./assets/images/wave-haikei.svg);
+}
+
+.circle-scatter-haikei {
+  background-image: url(./assets/images/circle-scatter-haikei.svg);
+}
+
+.spacer {
+  aspect-ratio: 960/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.stacked-waves-haikei {
+  background-image: url(./assets/images/stacked-waves-haikei.svg);
+}
+
+.stacked-waves-haikei1 {
+  background-image: url(./assets/images/stacked-waves-haikei.svg);
+}
+
+.center {
+  text-align: center;
+  padding: 3rem;
+  padding-top: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 5vw;
+}
+
+.align-right {
+  text-align: end;
+}
+
+.header {
+  font-size: 2.5rem;
+}
+
+.header-two {
+  font-size: 2rem;
+}
+
+.header-content {
+  font-size: 1.5rem;
+}
+
+.me {
+ 
+  width: 30rem;
+}
+
+.hero-container {
+  padding: 6vw;
+}
+
+.hero-text {
+  width: 80%;
+}
+
+.icon {
+  width: 10rem;
+}
+
+.icon-container {
+  padding: 3vw;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-col {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  margin: 3vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-row {
+  padding: 2vw;
+}
+
+.left-border {
+  border-left: solid 3px #0066FF;
+}
+
+.right-border {
+  border-right: solid 3px #0066FF;
 }
