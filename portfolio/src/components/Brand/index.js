@@ -16,6 +16,7 @@ function Brand() {
   }, []);
 
   return (
+    <div className="override">
     <div className="light blob wave-haikei" id="about">
       <Container className="brand-container">
         <Row>
@@ -45,6 +46,7 @@ function Brand() {
         </Row>
       </Container>
       <div className="spacer light-dark"></div>
+    </div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Technologies() {
         <div className="primary" id="technologies">
         <Container className="margin-bottom">
             <h1 data-aos="fade-down" className="light-text header center">Technologies</h1>
-            <Row className="icon-container">
+            <Row className="icon-container ">
                 <Col data-aos="fade-right" className="icon-col">
                 <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5"/>
                 </Col>
@@ -28,33 +28,34 @@ function Technologies() {
                 <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="reactjs"/>
                 </Col>
             </Row>
-            <Row className="icon-container">
+            <Row className="icon-container light rounded">
                 <Col data-aos="fade-right" className="icon-col">
                 <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs"/>
                 </Col>
                 <Col data-aos="fade-right" className="icon-col">
                 <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="expressjs"/>
                 </Col>
-            
+
                 <Col data-aos="fade-left" className="icon-col">
-                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongoosedb"/>
+                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
                 </Col>
+            
                 <Col data-aos="fade-left" className="icon-col">
                 <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt="graphql"/>
                 </Col>
             </Row>
-            <Row className="icon-container">
-                <Col data-aos="zoom-out" className="icon-col">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="tailwind"/>
+            <Row className="icon-container highlight rounded">
+                <Col data-aos="fade-right" className="icon-col">
+                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="tailwind"/>
                 </Col>
-                <Col data-aos="zoom-out" className="icon-col">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap"/>
+                <Col data-aos="fade-right" className="icon-col">
+                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap"/>
                 </Col>
-                <Col data-aos="zoom-out" className="icon-col">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
+                <Col data-aos="fade-left" className="icon-col">
+                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongoosedb"/>
                 </Col>
-                <Col data-aos="zoom-out" className="icon-col">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="c++"/>
+                <Col data-aos="fade-left" className="icon-col">
+                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="c++"/>
                 </Col>
                 </Row>
         </Container>
