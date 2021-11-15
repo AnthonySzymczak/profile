@@ -29,7 +29,7 @@ function Brand() {
               <br />
               <h2 className="highlight-text header-two">I'm Anthony.</h2>
               <p className="dark-text header-content">
-                I'm a devoloper based on the east-coast of Florida.
+                I'm a developer based on the east-coast of Florida.
                 Computers and learning new technologies are my passion.
               </p>
             </div>
